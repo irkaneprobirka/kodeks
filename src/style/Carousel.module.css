@@ -1,0 +1,42 @@
+.levelTest {
+  width: 30vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.slide {
+  text-align: center;
+}
+
+.levelTest h2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.slide img {
+  width: 30vw;
+  height: 40vh;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.slide p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .slide img {
+    width: 60vw;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .levelTest {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
